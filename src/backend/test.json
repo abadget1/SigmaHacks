@@ -1,0 +1,98 @@
+{
+    "FRAGRANCE": {
+        "score": "https://phorcys-static.ewg.org/skindeep_rails/score-08-28ce3b7ee3d9ea97e8b6f76bba82d606aa738e12afd69cabef64c30e8c2968c2.svg",
+        "availability": "Fair",
+        "concern": [
+            "Allergies/immunotoxicity (high)",
+            "Endocrine disruption (moderate)",
+            "Non-reproductive organ system toxicity (moderate)",
+            "Ecotoxicology (low)",
+            "Irritation (skin, eyes, or lungs) (moderate)"
+        ]
+    },
+    "GLYCERIN": {
+        "score": "https://phorcys-static.ewg.org/skindeep_rails/score-02-d52d6a7bd5c631c063a8f9a8b9af7f467a14fbf7178dec4fea22618ec5c800b7.svg",
+        "availability": "Good",
+        "concern": [
+            "Use restrictions (moderate)"
+        ]
+    },
+    "CI 77499": {
+        "score": "https://phorcys-static.ewg.org/skindeep_rails/score-02-d52d6a7bd5c631c063a8f9a8b9af7f467a14fbf7178dec4fea22618ec5c800b7.svg",
+        "availability": "Fair",
+        "concern": [
+            "Enhanced skin absorption",
+            "Persistence and bioaccumulation (high)",
+            "Non-reproductive organ system toxicity (low)"
+        ]
+    },
+    "CITRIC ACID": {
+        "score": "https://phorcys-static.ewg.org/skindeep_rails/score-02-d52d6a7bd5c631c063a8f9a8b9af7f467a14fbf7178dec4fea22618ec5c800b7.svg",
+        "availability": "Good",
+        "concern": [
+            "Use restrictions (moderate)"
+        ]
+    },
+    "SODIUM PALMATE": {
+        "score": "https://phorcys-static.ewg.org/skindeep_rails/score-01-d92374590c9b1dc3ed2b336ef09e0f0781e21e8380f9d27a22ce6e31dde80e14.svg",
+        "availability": "None",
+        "concern": []
+    },
+    "SODIUM PALM KERNELATE": {
+        "score": "https://phorcys-static.ewg.org/skindeep_rails/score-01-d92374590c9b1dc3ed2b336ef09e0f0781e21e8380f9d27a22ce6e31dde80e14.svg",
+        "availability": "None",
+        "concern": []
+    },
+    "WATER": {
+        "score": "https://phorcys-static.ewg.org/skindeep_rails/score-01-d92374590c9b1dc3ed2b336ef09e0f0781e21e8380f9d27a22ce6e31dde80e14.svg",
+        "availability": "Robust",
+        "concern": []
+    },
+    "BEER": {
+        "score": "https://phorcys-static.ewg.org/skindeep_rails/score-01-d92374590c9b1dc3ed2b336ef09e0f0781e21e8380f9d27a22ce6e31dde80e14.svg",
+        "availability": "Fair",
+        "concern": []
+    },
+    "SODIUM GLUCONATE": {
+        "score": "https://phorcys-static.ewg.org/skindeep_rails/score-01-d92374590c9b1dc3ed2b336ef09e0f0781e21e8380f9d27a22ce6e31dde80e14.svg",
+        "availability": "Fair",
+        "concern": []
+    },
+    "PALM ACID": {
+        "score": "https://phorcys-static.ewg.org/skindeep_rails/score-01-d92374590c9b1dc3ed2b336ef09e0f0781e21e8380f9d27a22ce6e31dde80e14.svg",
+        "availability": "None",
+        "concern": []
+    },
+    "COCOS NUCIFERA (COCONUT) OIL": {
+        "score": "https://phorcys-static.ewg.org/skindeep_rails/score-01-d92374590c9b1dc3ed2b336ef09e0f0781e21e8380f9d27a22ce6e31dde80e14.svg",
+        "availability": "Fair",
+        "concern": []
+    },
+    "BUTYROSPERMUM PARKII (SHEA) BUTTER": {
+        "score": "https://phorcys-static.ewg.org/skindeep_rails/score-01-d92374590c9b1dc3ed2b336ef09e0f0781e21e8380f9d27a22ce6e31dde80e14.svg",
+        "availability": "Limited",
+        "concern": [
+            "Use restrictions (low)"
+        ]
+    },
+    "SODIUM CHLORIDE": {
+        "score": "https://phorcys-static.ewg.org/skindeep_rails/score-01-d92374590c9b1dc3ed2b336ef09e0f0781e21e8380f9d27a22ce6e31dde80e14.svg",
+        "availability": "Robust",
+        "concern": []
+    },
+    "PALM KERNEL ACID": {
+        "score": "https://phorcys-static.ewg.org/skindeep_rails/score-01-d92374590c9b1dc3ed2b336ef09e0f0781e21e8380f9d27a22ce6e31dde80e14.svg",
+        "availability": "None",
+        "concern": []
+    },
+    "DIHEPTYL SUCCINATE": {
+        "score": "https://phorcys-static.ewg.org/skindeep_rails/score-01-d92374590c9b1dc3ed2b336ef09e0f0781e21e8380f9d27a22ce6e31dde80e14.svg",
+        "availability": "None",
+        "concern": []
+    },
+    "CAPRYLOYL GLYCERIN/ SEBACIC ACID COPOLYMER": {
+        "score": "https://phorcys-static.ewg.org/skindeep_rails/score-01-d92374590c9b1dc3ed2b336ef09e0f0781e21e8380f9d27a22ce6e31dde80e14.svg",
+        "availability": "None",
+        "concern": []
+    }
+}
