@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:sigmahacks/main.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:sigmahacks/pages/detail.dart';
+import 'package:sigmahacks/pages/detail1.dart';
 import 'package:sigmahacks/pages/option.dart';
 
 class TextAreaWidget extends StatelessWidget {
@@ -55,10 +57,10 @@ class TextAreaWidget extends StatelessWidget {
                         color: Color(0xff9dc6fb),
                         elevation: 4,
                         child: Text(
-                          'Good',
+                          'More Details',
                           style: GoogleFonts.poppins(
                             textStyle: TextStyle(
-                              color: Color(0xffD8EFEF),
+                              color: Colors.white,
                               fontSize: 20,
                               fontWeight: FontWeight.w400,
                             ),
@@ -68,59 +70,7 @@ class TextAreaWidget extends StatelessWidget {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => Option()));
-                        }),
-                  ),
-                  SizedBox(
-                    height: 7,
-                  ),
-                  Container(
-                    height: 50,
-                    width: 170,
-                    child: RaisedButton(
-                        color: Color(0xff9dc6fb),
-                        elevation: 4,
-                        child: Text(
-                          'Neutral',
-                          style: GoogleFonts.poppins(
-                            textStyle: TextStyle(
-                              color: Color(0xffD8EFEF),
-                              fontSize: 20,
-                              fontWeight: FontWeight.w400,
-                            ),
-                          ),
-                        ),
-                        onPressed: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => Option()));
-                        }),
-                  ),
-                  SizedBox(
-                    height: 7,
-                  ),
-                  Container(
-                    height: 50,
-                    width: 170,
-                    child: RaisedButton(
-                        color: Color(0xff9dc6fb),
-                        elevation: 4,
-                        child: Text(
-                          'Caution',
-                          style: GoogleFonts.poppins(
-                            textStyle: TextStyle(
-                              color: Color(0xffD8EFEF),
-                              fontSize: 20,
-                              fontWeight: FontWeight.w400,
-                            ),
-                          ),
-                        ),
-                        onPressed: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => Option()));
+                                  builder: (context) => Detail1()));
                         }),
                   ),
                 ],

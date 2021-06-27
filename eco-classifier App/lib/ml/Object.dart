@@ -3,6 +3,7 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:sigmahacks/pages/detail.dart';
 import 'package:tflite/tflite.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:camera/camera.dart';
@@ -113,9 +114,11 @@ class _ObjectDetectState extends State<ObjectDetect> {
           : "";
       _object = str.substring(2);
       if (_object == 'Vaseline')
-        _speak(_object + " . ghgj");
+        _speak(_object +
+            "It contains Methylisothiazolinone that can cause Allergies/immunotoxicity, Irritation (skin, eyes, or lungs)");
       else
-        _speak(_object + " . hgjhk");
+        _speak(
+            "Vaseline Intensive Care Body Lotion .It can cause Endocrine disruption, Irritation (skin, eyes, or lungs), Organ system toxicity ");
 
       print(str.substring(2));
       print(
@@ -160,9 +163,46 @@ class _ObjectDetectState extends State<ObjectDetect> {
                             children: <Widget>[
                               Center(
                                 child: _pic != null
-                                    ? Image.file(
-                                        _pic,
-                                        width: size.width * 0.6,
+                                    ? Container(
+                                        child: Column(
+                                          children: [
+                                            Image.file(
+                                              _pic,
+                                              width: size.width * 0.5,
+                                            ),
+                                            Padding(
+                                              padding:
+                                                  const EdgeInsets.all(15.0),
+                                              child: Container(
+                                                height: 50,
+                                                width: 190,
+                                                child: RaisedButton(
+                                                  color: Color(0xff9dc6fb),
+                                                  elevation: 4,
+                                                  child: Text(
+                                                    'More details',
+                                                    style: GoogleFonts.poppins(
+                                                      textStyle: TextStyle(
+                                                        color: Colors.white,
+                                                        fontSize: 20,
+                                                        fontWeight:
+                                                            FontWeight.w400,
+                                                      ),
+                                                    ),
+                                                  ),
+                                                  onPressed: () {
+                                                    Navigator.push(
+                                                        context,
+                                                        MaterialPageRoute(
+                                                            builder:
+                                                                (context) =>
+                                                                    Detail()));
+                                                  },
+                                                ),
+                                              ),
+                                            ),
+                                          ],
+                                        ),
                                       )
                                     : Container(
                                         height: 120,
@@ -178,7 +218,7 @@ class _ObjectDetectState extends State<ObjectDetect> {
                                       style: GoogleFonts.poppins(
                                         textStyle: TextStyle(
                                           color: Colors.black,
-                                          fontSize: 28,
+                                          fontSize: 18,
                                           fontWeight: FontWeight.w400,
                                         ),
                                       ),
